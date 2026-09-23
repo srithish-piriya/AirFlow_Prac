@@ -1,5 +1,4 @@
 from airflow.sdk import dag,task
-from airflow.timetables.trigger import CronTriggerTimetable
 from pendulum import datetime
 @dag(dag_id ="cron_trad_dag",
      start_date =datetime(year=2026,month=9,day=1,tz="Asia/Kolkata"),
