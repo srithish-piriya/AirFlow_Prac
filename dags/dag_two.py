@@ -17,3 +17,4 @@ def sec_orc():
     sec = second_task()
     third = third_task()
     first >> sec >> third
+sec_orc()
